@@ -1,0 +1,18 @@
+=== Churn Prediction Model Summary ===
+
+Timestamp: 20250303_203039
+Original dataset shape: (5630, 20)
+Number of PCA components used: 20
+Cumulative explained variance: 0.8901
+
+Best Decision Tree Parameters: {'class_weight': {0: 1, 1: 50}, 'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 200}
+Training Accuracy: 0.9955
+Validation Accuracy: 0.9166
+Test Accuracy: 0.9471
+
+Top 5 Most Important Features:
+- NumberOfAddress: 0.0643
+- DaySinceLastOrder: 0.0710
+- WarehouseToHome: 0.0726
+- CashbackAmount: 0.0757
+- Tenure: 0.2591
